@@ -1,0 +1,41 @@
+name: Build patches (fork)
+
+# Fork-only: builds the patch bundle on every push to dev and keeps the .mpp as an artifact.
+# The upstream release workflow needs GPG and semantic-release secrets a fork does not have.
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - dev
+
+permissions:
+  contents: read
+  packages: read
+
+jobs:
+  build:
+    name: Build patches
+    if: github.repository != 'crimera/piko'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Java
+        uses: actions/setup-java@v6
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Build with Gradle
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./gradlew clean buildAndroid
+
+      - name: Upload patch bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: piko-patches
+          path: patches/build/libs/*.mpp
+          if-no-files-found: error
