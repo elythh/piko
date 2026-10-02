@@ -390,6 +390,22 @@
     <string name="piko_filter_story_minimum_item_count_desc">Relacje mające mniej niż x elementów zostaną ukryte (domyślnie 1)</string>
     <string name="piko_filter_story_maximum_item_count">Maksymalna liczba elementów relacji</string>
     <string name="piko_filter_story_maximum_item_count_desc">Relacje mające więcej niż x elementów zostaną ukryte (domyślnie 9999)</string>
+    <!-- Save Instants -->
+    <string name="piko_instants_download">Zapisuj Instants</string>
+    <string name="piko_instants_download_desc">Przechwytuj jednorazowe Instants podczas ich wyświetlania, aby móc je później obejrzeć i pobrać z poziomu \"Wyświetl zapisane Instants\".</string>
+    <string name="piko_view_saved_instants">Wyświetl zapisane Instants</string>
+    <string name="piko_instants_vault_empty">Brak zapisanych Instants. Otwórz kilka Instants z włączonym przechwytywaniem, a pojawią się w tym miejscu.</string>
+    <string name="piko_instants_link_unavailable">Link do multimediów jest niedostępny.</string>
+    <string name="piko_instants_unknown_user">Nieznany</string>
+    <string name="piko_instants_delete_confirm">Usunąć ten zapisany Instant?</string>
+    <string name="piko_instants_clear_all">Wyczyść wszystko</string>
+    <string name="piko_instants_clear_all_confirm">Usunąć wszystkie zapisane Instants?</string>
+    <string name="piko_delete">Usuń</string>
+    <string name="piko_instants_title">Instants</string>
+    <string name="piko_search_username">Szukaj według nazwy użytkownika</string>
+    <string name="piko_instants_no_matches">Brak zapisanych Instants od tego użytkownika.</string>
+    <string name="piko_instants_unavailable">Niedostępne</string>
+    <string name="piko_saved_on">Zapisano</string>
     <!-- Save & view deleted (unsent) direct messages -->
     <string name="piko_open_share_in_instagram">Otwórz w Instagramie</string>
     <string name="piko_open_voice_with_player">Otwórz w odtwarzaczu muzyki</string>
@@ -401,7 +417,6 @@
     <string name="piko_all">Wszystkie</string>
     <string name="piko_selected_count">%d wybranych</string>
     <string name="piko_delete_selected_confirm">Usunąć %d wybranych wiadomości?</string>
-    <string name="piko_delete">Usuń</string>
     <string name="piko_unknown">Nieznane</string>
     <string name="piko_tap_to_view">dotknij, aby wyświetlić</string>
     <string name="piko_media_expired">link wygasł</string>

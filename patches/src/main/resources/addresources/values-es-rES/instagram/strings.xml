@@ -332,6 +332,8 @@
     <string name="piko_filter_story_minimum_item_count_desc">Las historias con menos de x elementos se ocultarán (Por defecto 1)</string>
     <string name="piko_filter_story_maximum_item_count">Elementos de historia máximos</string>
     <string name="piko_filter_story_maximum_item_count_desc">Las historias que tengan más de x elementos se ocultarán (Por defecto 9999)</string>
+    <!-- Save Instants -->
+    <string name="piko_delete">Eliminar</string>
     <!-- Save & view deleted (unsent) direct messages -->
     <string name="piko_open_share_in_instagram">Abrir en Instagram</string>
     <string name="piko_open_voice_with_player">Abrir con reproductor de música</string>
@@ -343,7 +345,6 @@
     <string name="piko_all">Todo</string>
     <string name="piko_selected_count">%d seleccionado</string>
     <string name="piko_delete_selected_confirm">¿Eliminar %d mensajes seleccionados?</string>
-    <string name="piko_delete">Eliminar</string>
     <string name="piko_unknown">Desconocido</string>
     <string name="piko_tap_to_view">toque para ver</string>
     <string name="piko_media_expired">enlace caducado</string>
